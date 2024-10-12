@@ -29,7 +29,7 @@
   <body class="bg-base-100 normal">
     <!-- Navbar -->
     <nav
-      class="navbar bg-base-100 flex justify-between nav-section sticky top-0"
+      class="navbar bg-base-100 flex justify-between nav-section sticky top-0 z-50"
     >
       <a href="/" class="btn btn-ghost text-secondary heading3 space-x-2 px-0">
         <img src="assets/logo.svg" alt="logo" />
@@ -75,8 +75,10 @@
       class="section grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 items-center"
     >
       <div class="space-y-4 order-2 md:order-1">
-        <p class="text-primary heading3">\ We Are Here \</p>
-        <h3 class="heading1">Better Insights For Business Growth</h3>
+        <div>
+          <p class="text-primary heading3">\ We Are Here \</p>
+          <h3 class="heading1">Better Insights For Business Growth</h3>
+        </div>
         <button class="btn btn-lg btn-primary btn-active">View More</button>
       </div>
       <div class="order-1 md:order-2 flex items-center justify-center">
@@ -85,7 +87,408 @@
     </header>
     <!-- Hero ends here -->
     <!-- About us starts here -->
-    <section></section>
+    <section
+      class="section grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-center gap-4 bg-neutral"
+    >
+      <div><img src="./assets/about-img.jpg" alt="about image" /></div>
+      <div class="space-y-4">
+        <div>
+          <p class="text-primary heading3">\ About Us \</p>
+          <h3 class="heading1">One of the Fastest Way to Business Growth</h3>
+        </div>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed
+        </p>
+        <div class="flex gap-4 items-center bg-base-100 p-2 rounded-md">
+          <span class="">
+            <img
+              src="./assets/icons/advice.svg"
+              alt=""
+              class="p-2 rounded-md bg-neutral"
+            />
+          </span>
+          <div>
+            <b class="subtitle font-bold">Get Instant Professional Advice</b>
+            <p class="strong">
+              Ready to help:
+              <span class="text-primary"> +92 356 6787897</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- About us ends here -->
+    <!-- Planning section starts here -->
+    <section class="section space-y-4">
+      <div class="text-center">
+        <p class="text-primary heading3">\ Planning \</p>
+        <h3 class="heading1">Our Process</h3>
+      </div>
+      <div
+        class="grid gap-4 grid-cols-1 grid-rows-4 sm:grid-cols-2 sm:grid-rows-2 md:grid-cols-4 md:grid-rows-1"
+      >
+        <!-- Research -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/research.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">Research</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">01</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page.
+          </p>
+        </div>
+        <!-- Design -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/design.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">Design</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">02</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page.
+          </p>
+        </div>
+        <!-- Develop -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/develop.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">Develop</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">03</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page.
+          </p>
+        </div>
+        <!-- Test -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/test.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">Test</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">01</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page.
+          </p>
+        </div>
+        <!-- ends -->
+      </div>
+    </section>
+    <!-- Planning section ends here -->
+    <!-- "what we do section" starts here -->
+    <section
+      class="section grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2 items-center gap-4 bg-neutral"
+    >
+      <div>
+        <img src="./assets/what-we-do-img.jpg" alt="what we do image" />
+      </div>
+      <div class="space-y-4">
+        <div>
+          <p class="text-primary heading3">\ What We Do \</p>
+          <h3 class="heading1">We Develope Product That People Love to Use.</h3>
+        </div>
+        <p>
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed, Lorem Ipsum is that it has a more-or-less normal
+          distribution of letters, as opposed
+        </p>
+        <div class="flex gap-2">
+          <div class="flex gap-4 items-center bg-base-100 p-2 rounded-md">
+            <span>
+              <img
+                src="./assets/icons/vision.svg"
+                alt=""
+                class="p-2 rounded-md bg-primary bg-opacity-10"
+              />
+            </span>
+            <div>
+              <p class="text-primary strong">Our Vision</p>
+              <p>The vision is great</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-center bg-base-100 p-2 rounded-md">
+            <span>
+              <img
+                src="./assets/icons/goal.svg"
+                alt=""
+                class="p-2 rounded-md bg-primary bg-opacity-10"
+              />
+            </span>
+            <div>
+              <p class="text-primary strong">Our Goal</p>
+              <p>The Goal is awesome</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- "what we do section" ends here -->
+    <!-- Expertise Section starts here -->
+    <section class="section space-y-4">
+      <div class="text-center">
+        <p class="text-primary heading3">\ Services \</p>
+        <h3 class="heading1">Our Expertise</h3>
+      </div>
+      <div
+        class="grid grid-cols-1 grid-flow-row gap-4 sm:grid-cols-2 md:grid-cols-3"
+      >
+        <!-- Web Design/ Development -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/web-design.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">Web Design/ Development</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">01</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page when looking at its layout, when looking
+            at its layout
+          </p>
+        </div>
+        <!-- UI / UX Design -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/ui-ux-design.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">UI/UX Design</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">01</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page when looking at its layout, when looking
+            at its layout
+          </p>
+        </div>
+        <!-- Website Migration -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/web-migration.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">Website Migration</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">01</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page when looking at its layout, when looking
+            at its layout
+          </p>
+        </div>
+        <!-- App Development -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/app-development.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">App Development</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">01</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page when looking at its layout, when looking
+            at its layout
+          </p>
+        </div>
+        <!-- HubSpot Integration -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/hub-spot-migration.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">HubSpot Integration</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">01</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page when looking at its layout, when looking
+            at its layout
+          </p>
+        </div>
+        <!-- Email Marketing -->
+        <div class="bg-neutral p-4 rounded-md space-y-4">
+          <div class="flex justify-between">
+            <span class="space-y-2">
+              <img
+                src="./assets/icons/email-marketing.svg"
+                alt="research"
+                class="p-2 rounded-md bg-base-100"
+              />
+              <p class="heading3 text-secondary">Email Marketing</p>
+              <svg
+                width="90"
+                height="6"
+                viewBox="0 0 90 6"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="60" height="6" rx="3" fill="#FF3E54" />
+                <rect x="70" width="20" height="6" rx="3" fill="#FF3E54" />
+              </svg>
+            </span>
+            <p class="heading2 text-secondary opacity-10">01</p>
+          </div>
+          <p>
+            It is a long established fact that a reader will be distra by the
+            readable content of a page when looking at its layout, when looking
+            at its layout
+          </p>
+        </div>
+        <!-- ends -->
+      </div>
+    </section>
+    <!-- Expertise section ends here -->
+    <!-- Leaders section here -->
+    <section class="section">
+      <div class="text-center">
+        <p class="text-primary heading3">\ Team \</p>
+        <h3 class="heading1">Our Leaders</h3>
+      </div>
+    </section>
   </body>
 </html>
