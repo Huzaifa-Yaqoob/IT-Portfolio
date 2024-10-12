@@ -7,6 +7,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/logo.ico" />
     <!-- Tailwind css CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/tailwindconfig.js"></script>
     <style type="text/tailwindcss">
       @layer utilities {
         .nav-section {
@@ -27,7 +28,9 @@
   </head>
   <body class="bg-base-100 normal">
     <!-- Navbar -->
-    <nav class="navbar bg-base-100 flex justify-between nav-section">
+    <nav
+      class="navbar bg-base-100 flex justify-between nav-section sticky top-0"
+    >
       <a href="/" class="btn btn-ghost text-secondary heading3 space-x-2 px-0">
         <img src="assets/logo.svg" alt="logo" />
         <span>IT Portfolio</span>
@@ -66,5 +69,23 @@
         </ul>
       </div>
     </nav>
+    <!-- Navbar end here -->
+    <!-- Hero starts here -->
+    <header
+      class="section grid grid-cols-1 grid-rows-2 md:grid-cols-2 md:grid-rows-1 items-center"
+    >
+      <div class="space-y-4 order-2 md:order-1">
+        <p class="text-primary heading3">\ We Are Here \</p>
+        <h3 class="heading1">Better Insights For Business Growth</h3>
+        <button class="btn btn-lg btn-primary btn-active">View More</button>
+      </div>
+      <div class="order-1 md:order-2 flex items-center justify-center">
+        <img src="./assets/hero-img.png" alt="hero image" class="" />
+      </div>
+    </header>
+    <!-- Hero ends here -->
+    <!-- About us starts here -->
+    <section></section>
+    <!-- About us ends here -->
   </body>
 </html>

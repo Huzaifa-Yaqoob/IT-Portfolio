@@ -1,8 +1,8 @@
 tailwind.config = {
   theme: {
     extend: {
-      colors: {
-        clifford: "#da373d",
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
       },
     },
   },
