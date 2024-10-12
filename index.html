@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="mytheme">
+  <head>
+    <title>IT Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.ico" />
+    <!-- Tailwind css CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .nav-section {
+          @apply px-4 sm:px-8 md:px-16;
+        }
+        .section {
+          @apply px-4 sm:px-8 md:px-16 py-16;
+        }
+      }
+    </style>
+    <!-- DaisyUI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.31.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="bg-base-100 normal">
+    <!-- Navbar -->
+    <nav class="navbar bg-base-100 flex justify-between nav-section">
+      <a href="/" class="btn btn-ghost text-secondary heading3 space-x-2 px-0">
+        <img src="assets/logo.svg" alt="logo" />
+        <span>IT Portfolio</span>
+      </a>
+      <ul class="strong gap-4 hidden md:flex">
+        <li><a href="#" class="btn btn-ghost btn-sm">About</a></li>
+        <li><a href="#" class="btn btn-ghost btn-sm">Our Services</a></li>
+        <li><a href="#" class="btn btn-ghost btn-sm">Portfolio</a></li>
+        <li><a href="#" class="btn btn-ghost btn-sm">Blog</a></li>
+        <li><a href="#" class="btn btn-ghost btn-sm">Contact</a></li>
+        <li>
+          <button type="button" class="btn btn-active btn-primary">
+            Get In Touch
+          </button>
+        </li>
+      </ul>
+      <!-- navbar links for mobile -->
+      <div class="dropdown dropdown-end md:hidden">
+        <div tabindex="0" role="button" class="btn m-1 bg-transparent">
+          <img src="./assets//icons/more.svg" alt="more" />
+        </div>
+        <ul
+          tabindex="0"
+          class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow space-y-2"
+        >
+          <li><a href="#" class="btn btn-ghost btn-sm">About</a></li>
+          <li><a href="#" class="btn btn-ghost btn-sm">Our Services</a></li>
+          <li><a href="#" class="btn btn-ghost btn-sm">Portfolio</a></li>
+          <li><a href="#" class="btn btn-ghost btn-sm">Blog</a></li>
+          <li><a href="#" class="btn btn-ghost btn-sm">Contact</a></li>
+          <li>
+            <button type="button" class="btn btn-active btn-primary">
+              Get In Touch
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
