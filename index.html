@@ -25,6 +25,7 @@
       type="text/css"
     />
     <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/caraousal.css" />
   </head>
   <body class="bg-base-100 normal">
     <!-- Navbar -->
@@ -543,6 +544,106 @@
         <p class="text-primary heading3">\ From our Customers \</p>
         <h3 class="heading1">Testimonials</h3>
       </div>
+      <div>
+        <div
+          class="carousel relative w-full h-[34rem] sm:h-[30rem] lg:h-[26rem] overflow-hidden"
+        >
+          <div
+            id="slides"
+            class="slides relative flex justify-center items-center h-full"
+          >
+            <div
+              class="slide absolute bg-neutral flex flex-col justify-center items-center rounded-lg transform transition-transform duration-500 ease-in-out opacity-50 scale-75 shadow-md p-4 space-y-4"
+            >
+              <div class="flex justify-between items-center gap-4 w-full">
+                <div class="avatar">
+                  <div class="w-24 rounded-full">
+                    <img
+                      src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                    />
+                  </div>
+                </div>
+                <span>
+                  <img src="./assets/icons/qoute.svg" alt="quote logo" />
+                </span>
+              </div>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed.
+              </p>
+              <div class="self-start flex flex-col gap-2">
+                <span class="strong text-primary">Someone</span>
+                <span>CEO</span>
+              </div>
+            </div>
+            <div
+              class="slide absolute bg-neutral flex flex-col justify-center items-center rounded-lg transform transition-transform duration-500 ease-in-out opacity-100 scale-100 shadow-md p-4 space-y-4"
+            >
+              <div class="flex justify-between items-center gap-4 w-full">
+                <div class="avatar">
+                  <div class="w-24 rounded-full">
+                    <img src="./assets/customer.jpg" />
+                  </div>
+                </div>
+                <span>
+                  <img src="./assets/icons/qoute.svg" alt="quote logo" />
+                </span>
+              </div>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed.
+              </p>
+              <div class="self-start flex flex-col gap-2">
+                <span class="strong text-primary">Samual Kumar</span>
+                <span>CEO</span>
+              </div>
+            </div>
+            <div
+              class="slide absolute bg-neutral flex flex-col justify-center items-center rounded-lg transform transition-transform duration-500 ease-in-out opacity-50 scale-75 shadow-md p-4 space-y-4"
+            >
+              <div class="flex justify-between items-center gap-4 w-full">
+                <div class="avatar">
+                  <div class="w-24 rounded-full">
+                    <img src="./assets/customer2.jpg" />
+                  </div>
+                </div>
+                <span>
+                  <img src="./assets/icons/qoute.svg" alt="quote logo" />
+                </span>
+              </div>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed.
+              </p>
+              <div class="self-start flex flex-col gap-2">
+                <span class="strong text-primary">Daria Linney</span>
+                <span>CEO</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dots (Centered under slides) -->
+          <div
+            class="dots flex justify-center space-x-2 mt-4 absolute bottom-4 w-full"
+          >
+            <button
+              class="dot w-4 h-4 bg-transparent rounded-full border border-primary"
+            ></button>
+            <button
+              class="dot w-4 h-4 bg-transparent rounded-full border border-primary"
+            ></button>
+            <button
+              class="dot w-4 h-4 bg-transparent rounded-full border border-primary"
+            ></button>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Testimonials section ends here -->
     <!-- Get in Touch section starts here -->
@@ -867,5 +968,7 @@
       </div>
     </footer>
     <!-- Footer ends here -->
+    <!-- My scripts -->
+    <script src="./js/carousal.js"></script>
   </body>
 </html>

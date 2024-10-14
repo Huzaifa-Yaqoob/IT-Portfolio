@@ -1,0 +1,45 @@
+.carousel {
+  perspective: 1000px; /* Optional for a 3D effect */
+}
+
+.slides {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the slides */
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+
+.slide.active {
+  transform: translate(-50%, -50%) scale(1); /* Full size and center for active slide */
+  opacity: 1;
+}
+
+.slide.left {
+  transform: translate(-150%, -50%) scale(0.75); /* Move left and reduce size */
+  opacity: 0.5;
+}
+
+.slide.right {
+  transform: translate(50%, -50%) scale(0.75); /* Move right and reduce size */
+  opacity: 0.5;
+}
+
+/* Center dots under the slides */
+.dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  cursor: pointer;
+}
