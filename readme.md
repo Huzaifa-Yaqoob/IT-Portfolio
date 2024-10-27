@@ -15,10 +15,10 @@ The website was built using **HTML**, **CSS**, **JavaScript**, and **Tailwind CS
 
 1. Clone the repository:
 
-   \`\`\`bash
+   ```sh
    git clone https://github.com/Huzaifa-Yaqoob/IT-Portfolio.git
    cd IT-Portfolio
-   \`\`\`
+   ```
 
 2. Open the `index.html` file directly in your browser, or use a live server (e.g., in VS Code) for viewing.
 
